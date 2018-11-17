@@ -11,9 +11,9 @@
 # dialog box: default Kerberos Realm: domain name in all caps with ending.
 # To confirm connected to domain: wbinfo -u
 
-WORKGROUP="HONEYPAQ"
-DOMAIN="HONEYPAQ.COM"
-ADMIN_USERNAME="queenbee"
+WORKGROUP="RSNT"
+DOMAIN="RSNT.NET"
+ADMIN_USERNAME="Administrator"
 
 # Install dependencies (-y for auto 'yes').
 apt-get install winbind samba smbclient krb5-user libpam-winbind libnss-winbind -y
